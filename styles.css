@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header,
+.section {
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.highlight {
+    color: red;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: lightgray;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: lightgray;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    padding: 10px;
+    color: white;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: green;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 217, 214, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+/* Skills List */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid red;
+}
+
+/* Contact Section */
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact .btn {
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+#contact .btn:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#home {
+    background-color: green;
+}
+
+a:hover {
+    background-color: black;
+}
